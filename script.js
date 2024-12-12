@@ -1,10 +1,8 @@
-const apiKey = process.env.RAPIDAPI_KEY;
-
 const options = {
   method: "GET",
   headers: {
     "X-RapidAPI-Host": "exercises-by-api-ninjas.p.rapidapi.com",
-    "X-RapidAPI-Key": apiKey,
+    "X-RapidAPI-Key": "44b623a2eamsh50d8d1075d70d88p188986jsn2a08bad9feec",
   },
 };
 

@@ -1,0 +1,20 @@
+.button-container {
+  display: flex;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+button {
+  border: none;
+  font-family: var(--main-font);
+  background: var(--button-color);
+  color: var(--white-color);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  cursor: pointer;
+  padding: 0.4rem 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+button:hover {
+  background: var(--button-hover-color);
+}

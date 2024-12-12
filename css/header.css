@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-family: var(--header-font);
+  color: var(--white-color);
+  font-size: --font-size-xxl;
+  background: var(--main-font-color);
+}

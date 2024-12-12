@@ -1,0 +1,24 @@
+body {
+  background: var(--background-color);
+  font-family: var(--main-font);
+}
+h2 {
+  padding: 3rem 1rem;
+}
+h2,
+h3,
+p {
+  text-align: center;
+  color: var(--main-font-color);
+}
+h3,
+p {
+  padding: 1rem 1rem;
+}
+
+@media (min-width: 767px) {
+  h3,
+  p {
+    text-align: left;
+  }
+}

@@ -1,0 +1,34 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-container {
+  padding: 0 1rem;
+}
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--table-header-color);
+  color: var(--white-color);
+}
+tr:nth-child(even) {
+  background-color: var(--light-grey-color);
+}
+tr:nth-child(odd) {
+  background-color: var(--white-color);
+}
+tr:hover {
+  background-color: var(--grey-color);
+}
+
+@media (min-width: 767px) {
+  table {
+    width: 50%;
+  }
+}

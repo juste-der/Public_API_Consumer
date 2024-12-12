@@ -2,70 +2,9 @@ const options = {
   method: "GET",
   headers: {
     "X-RapidAPI-Host": "exercises-by-api-ninjas.p.rapidapi.com",
-    "X-RapidAPI-Key": "90686aef92msh785337be2a378ebp13e3c7jsn2a3f8b9509ef",
+    "X-RapidAPI-Key": "44b623a2eamsh50d8d1075d70d88p188986jsn2a08bad9feec",
   },
 };
-
-// const day1Exercises = [
-//   {
-//     name: "Seated Dumbbell Press",
-//     gif: "gifs/dumbell-press.webp",
-//   },
-//   {
-//     name: "Holman Overhead Press",
-//     gif: "gifs/overhead-press.webp",
-//   },
-//   {
-//     name: "Dumbbell Lateral Raise",
-//     gif: "gifs/lateral-raise.webp",
-//   },
-//   {
-//     name: "Dumbbell Front Raise",
-//     gif: "gifs/fron-raise.webp",
-//   },
-//   {
-//     name: "Triceps Pushdown - Rope Attachment",
-//     gif: "gifs/triceps-pushdown.webp",
-//   },
-//   {
-//     name: "Crunches",
-//     gif: "gifs/crunches.webp",
-//   },
-//   {
-//     name: "Bottoms Up",
-//     gif: "gifs/bottoms-up.webp",
-//   },
-// ];
-// const day2Exercises = [
-//   {
-//     name: "Bent Over Barbell Row",
-//     gif: "gifs/bent-rows.webp",
-//   },
-//   {
-//     name: "Holman Overhead Press",
-//     gif: "gifs/overhead-press.webp",
-//   },
-//   {
-//     name: "Lat pull-down",
-//     gif: "gifs/lat-pulldo.webp",
-//   },
-//   {
-//     name: "Dumbbell Front Raise",
-//     gif: "gifs/fron-raise.webp",
-//   },
-//   {
-//     name: "Triceps Pushdown - Rope Attachment",
-//     gif: "gifs/triceps-pushdown.webp",
-//   },
-//   {
-//     name: "Crunches",
-//     gif: "gifs/crunches.webp",
-//   },
-//   {
-//     name: "Bottoms Up",
-//     gif: "gifs/bottoms-up.webp",
-//   },
-// ];
 
 const day1Exercises = [
   "Seated Dumbbell Press",
